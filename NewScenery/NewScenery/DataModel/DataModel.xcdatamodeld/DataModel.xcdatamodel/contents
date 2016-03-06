@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="BannerEntity" representedClassName="BannerEntity" syncable="YES">
+        <attribute name="img" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CityEntity" representedClassName="CityEntity" syncable="YES">
+        <attribute name="is_foreign" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="place_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="place_img" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="place_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="place_name_en" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DesignerEntity" representedClassName="DesignerEntity" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="data_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="designer_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="grade_test" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="img" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score_total" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="skilled" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_sex" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RouteListEntity" representedClassName="RouteListEntity" syncable="YES">
+        <attribute name="can_buy" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="citys" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="data_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="img" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_icon" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BannerEntity" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="DesignerEntity" positionX="-54" positionY="0" width="128" height="180"/>
+        <element name="RouteListEntity" positionX="-54" positionY="63" width="128" height="165"/>
+        <element name="CityEntity" positionX="-45" positionY="72" width="128" height="150"/>
+    </elements>
+</model>

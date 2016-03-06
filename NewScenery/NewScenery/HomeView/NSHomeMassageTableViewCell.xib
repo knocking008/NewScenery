@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="NSHomeMassageTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jNy-ig-wxm">
+                        <rect key="frame" x="13" y="13" width="70" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="ONb-Uh-AxF"/>
+                            <constraint firstAttribute="width" constant="70" id="znA-Di-akw"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="指南猫活动" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yiJ-pF-FcP">
+                        <rect key="frame" x="102" y="18" width="150" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="AOp-uj-l9w"/>
+                            <constraint firstAttribute="height" constant="32" id="Ljb-sd-DtD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01-08" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLA-hK-HVi">
+                        <rect key="frame" x="323" y="23" width="44" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="2gj-nH-vGt"/>
+                            <constraint firstAttribute="width" constant="44" id="zN7-q0-qSb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[演员招募]指南猫微电影寻找下一位旅行" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="35d-9c-Vpj">
+                        <rect key="frame" x="102" y="60" width="210" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="210" id="qQg-Pl-acP"/>
+                            <constraint firstAttribute="height" constant="21" id="xgp-0r-doC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="lLA-hK-HVi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="15" id="FDt-OJ-oSU"/>
+                    <constraint firstItem="35d-9c-Vpj" firstAttribute="leading" secondItem="jNy-ig-wxm" secondAttribute="trailing" constant="19" id="FWu-t4-aav"/>
+                    <constraint firstItem="35d-9c-Vpj" firstAttribute="top" secondItem="yiJ-pF-FcP" secondAttribute="bottom" constant="10" id="OKg-wG-hgu"/>
+                    <constraint firstItem="lLA-hK-HVi" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="bdi-iZ-NVN"/>
+                    <constraint firstItem="jNy-ig-wxm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="d2w-Zu-icz"/>
+                    <constraint firstItem="yiJ-pF-FcP" firstAttribute="leading" secondItem="jNy-ig-wxm" secondAttribute="trailing" constant="19" id="orm-ss-zmj"/>
+                    <constraint firstItem="jNy-ig-wxm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="5" id="p4u-0m-sPs"/>
+                    <constraint firstItem="yiJ-pF-FcP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="xwc-aA-0ps"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="actionLabel" destination="yiJ-pF-FcP" id="3KD-fW-ZDf"/>
+                <outlet property="dateLabel" destination="lLA-hK-HVi" id="6pF-ad-Mss"/>
+                <outlet property="desclabel" destination="35d-9c-Vpj" id="BiE-wF-Fzq"/>
+                <outlet property="iconImageView" destination="jNy-ig-wxm" id="doP-qD-BKn"/>
+            </connections>
+            <point key="canvasLocation" x="290.5" y="179"/>
+        </tableViewCell>
+    </objects>
+</document>
